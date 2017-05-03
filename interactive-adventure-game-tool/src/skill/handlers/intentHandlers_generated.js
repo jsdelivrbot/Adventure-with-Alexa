@@ -31,8 +31,8 @@ module.exports = {
 	"LifelineIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "lifeline" )
 	},
-	"OpenDoorIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door" )
+	"TeddyBearIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "teddy bear" )
 	},
 	"MasterYodaIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "master yoda" )
@@ -60,5 +60,65 @@ module.exports = {
 	},
 	"AreYouAlrightIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "are you alright" )
+	},
+	"HugDavidIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "hug david" )
+	},
+	"GetOffTheBedIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "get off the bed" )
+	},
+	"RunToCabinetIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "run to cabinet" )
+	},
+	"RattledBallIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "rattled ball" )
+	},
+	"TreatsIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "treats" )
+	},
+	"RunIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "run" )
+	},
+	"PatIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "pat" )
+	},
+	"ScareHerIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "scare her" )
+	},
+	"SixIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "6" )
+	},
+	"SevenIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "7" )
+	},
+	"ThankYouChesterIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "thank you chester" )
+	},
+	"SorryChesterIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "sorry chester" )
+	},
+	"FourteenIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "14" )
+	},
+	"TwelveIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "12" )
+	},
+	"TeddyBearPartyIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "teddy bear party" )
+	},
+	"ChesterTakeMeToDavidIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "chester take me to david" )
+	},
+	"HeySiriIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "hey siri" )
+	},
+	"SetAReminderIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "set a reminder" )
+	},
+	"DogIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "dog" )
+	},
+	"CatIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "cat" )
 	},
 }

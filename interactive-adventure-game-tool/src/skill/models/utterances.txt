@@ -17,7 +17,7 @@ AMAZON.StopIntent exit skill
 AMAZON.CancelIntent exit skill
 StarWarsIntent star wars
 LifelineIntent lifeline
-OpenDoorIntent open door
+TeddyBearIntent teddy bear
 MasterYodaIntent master yoda
 MasterAnakinIntent master anakin
 HeavyLightsaberIntent heavy lightsaber
@@ -35,3 +35,53 @@ WhatHappenedIntent varia
 WhatHappenedIntent are you ok
 AreYouAlrightIntent are you alright
 AreYouAlrightIntent are you ok
+YesIntent yes
+HugDavidIntent hug david
+GetOffTheBedIntent get off the bed
+RunToCabinetIntent run to cabinet
+RattledBallIntent rattled ball
+TreatsIntent treats
+RunIntent run
+PatIntent pat
+ScareHerIntent scare her
+SixIntent six
+SevenIntent seven
+ThankYouChesterIntent thank you chester
+SorryChesterIntent sorry chester
+FourteenIntent fourteen
+TwelveIntent twelve
+SevenIntent seven
+TeddyBearPartyIntent teddy bear party
+FourteenIntent fourteen
+SevenIntent seven
+FourteenIntent fourteen
+TwelveIntent twelve
+TeddyBearPartyIntent teddy bear party
+FourteenIntent fourteen
+TeddyBearPartyIntent teddy bear party
+FourteenIntent fourteen
+ChesterTakeMeToDavidIntent chester take me to david
+ThankYouChesterIntent thank you chester
+ThankYouChesterIntent thank you chester
+HeySiriIntent hey siri
+HeySiriIntent hey siri
+SetAReminderIntent set a reminder
+SetAReminderIntent set a reminder
+TeddyBearPartyIntent teddy bear party
+TeddyBearPartyIntent teddy bear party
+ChesterTakeMeToDavidIntent chester take me to david
+ChesterTakeMeToDavidIntent chester take me to david
+ChesterTakeMeToDavidIntent chester take me to david
+TeddyBearPartyIntent teddy bear party
+ChesterTakeMeToDavidIntent chester take me to david
+TeddyBearPartyIntent teddy bear party
+ChesterTakeMeToDavidIntent chester take me to david
+ChesterTakeMeToDavidIntent chester take me to david
+DogIntent dog
+CatIntent cat
+HeySiriIntent hey siri
+HeySiriIntent hey siri
+TeddyBearPartyIntent teddy bear party
+TeddyBearPartyIntent teddy bear party
+ChesterTakeMeToDavidIntent chester take me to david
+ChesterTakeMeToDavidIntent chester take me to david

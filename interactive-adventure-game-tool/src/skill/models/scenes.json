@@ -33,7 +33,7 @@
       {
         "sceneId": 12,
         "utterances": [
-          "open door"
+          "teddy bear"
         ]
       }
     ]
@@ -341,16 +341,1409 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Room",
-      "text": "You enter a room.",
+      "title": "Intro",
+      "text": "Tomorrow is the big Teddy Bear party, and you must definitely not let your owner forget about it... Would you like to help remind your owner David?",
+      "prompt": "",
       "image": {
-        "smallImageUrl": null,
-        "largeImageUrl": null
+        "largeImageUrl": null,
+        "smallImageUrl": null
       }
     },
     "voice": {
-      "intro": "You enter a room. What would you like to do?",
+      "intro": "Tomorrow is the big Teddy Bear party, and you must definitely not let your owner forget about it... Would you like to help remind your owner David?",
+      "prompt": "Say yes if you wish to help or say reset to choose another game."
+    },
+    "options": [
+      {
+        "sceneId": 13,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Bedroom",
+      "text": "David, your owner, lies next to you on the bed, in a deep sleep.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "David, your owner, lies next to you on the bed, in a deep sleep. He seems to be having a nightmare.",
+      "prompt": "Say hug david to help david fight monsters in his dream."
+    },
+    "options": [
+      {
+        "sceneId": 14,
+        "utterances": [
+          "hug david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Get off the bed",
+      "text": "Get off the bed",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "David remains sound asleep. You want to set an reminder on david's phone to remind him not to forget about your big party. First you have to get off the bed.",
+      "prompt": "Say get off the bed"
+    },
+    "options": [
+      {
+        "sceneId": 15,
+        "utterances": [
+          "get off the bed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "jacket",
+      "text": "cold, jacket",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You tumble down, but being a soft bear, that's ok. It feels a little bit chilly in the room. You want to wear your thick jacket to keep warm.",
+      "prompt": "Say run to cabinet to get your jacket."
+    },
+    "options": [
+      {
+        "sceneId": 16,
+        "utterances": [
+          "run to cabinet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "cabinet",
+      "text": "get jacket",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Your warm winter jacket is here. This jacket is has a lot of pockets on it. It's good since you want to carry something useful for the road. It's a long way to David's phone, and you thought it's a good idea to ride David's cat Chester. But you don't know where she is. Her favorite treats and toys are here too. Which one would you carry with you?",
+      "prompt": "Say treats or rattled ball."
+    },
+    "options": [
+      {
+        "sceneId": 17,
+        "utterances": [
+          "rattled ball"
+        ]
+      },
+      {
+        "sceneId": 18,
+        "utterances": [
+          "treats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "ball",
+      "text": "ball",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You take the rattled ball with you. Since your hand is really furry and the ball slips off your hand and rolls out of the bedroom.",
+      "prompt": "Say run to chase for the rattled ball."
+    },
+    "options": [
+      {
+        "sceneId": 19,
+        "utterances": [
+          "run"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "living room",
+      "text": "living room",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You take the her treats with you. You walks out of the bedroom to the living room. Chester is asleep on the couch. You climbed on the couch. Now you want to wake her up. Would you pat her or scare her to wake her up.",
+      "prompt": "You can say pat her or scare her."
+    },
+    "options": [
+      {
+        "sceneId": 20,
+        "utterances": [
+          "pat"
+        ]
+      },
+      {
+        "sceneId": 21,
+        "utterances": [
+          "scare her"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "hallway",
+      "text": "hallway",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You run to the hallway. Chester is right here holding the ball in her hand. You asks nicely if she can take you to david's phone. Chester sys sure. But you have to help me figure out how many toys I have. I have 2 mouse, 2 boxes and 3 balls. Do I have 6 toys in total or 7.",
+      "prompt": "Tell me how many toys I have."
+    },
+    "options": [
+      {
+        "sceneId": 34,
+        "utterances": [
+          "6"
+        ]
+      },
+      {
+        "sceneId": 35,
+        "utterances": [
+          "7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "gentle",
+      "text": "gentle",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester wakes up gently. Luckily you can communicate with cat too. So you asks Chester to be your ride and gives her the treats. She agrees and you climbed onto her back.",
+      "prompt": "Say Thank you Chester."
+    },
+    "options": [
+      {
+        "sceneId": 22,
+        "utterances": [
+          "thank you chester"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "bite",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester bites you on the arm. Good thing you are a fluffy teddy bear and can't feel pain. You apologize to chester.",
+      "prompt": "Say sorry chester"
+    },
+    "options": [
+      {
+        "sceneId": 54,
+        "utterances": [
+          "sorry chester"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Take to laptop",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester carries you to the study . David's phone is right there on the desk. You press on home button for siri. You ask siri to send a reminder. But siri says okay. But you have to tell me which is the biggest number among 12, 7, 14",
+      "prompt": "Say the answer to set reminder."
+    },
+    "options": [
+      {
+        "sceneId": 23,
+        "utterances": [
+          "14"
+        ]
+      },
+      {
+        "sceneId": 24,
+        "utterances": [
+          "12"
+        ]
+      },
+      {
+        "sceneId": 25,
+        "utterances": [
+          "7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "siri",
+      "text": "siri",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
+      "prompt": "Say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 30,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Try again",
+      "text": "Try again",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says wrong answer. Let's try again. What is the biggest number among 12, 14, 7",
+      "prompt": "Say the answer to set reminder"
+    },
+    "options": [
+      {
+        "sceneId": 26,
+        "utterances": [
+          "14"
+        ]
+      },
+      {
+        "sceneId": 27,
+        "utterances": [
+          "7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Try again",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says wrong answer. Let's try again. What is the biggest number among 12, 14, 7",
+      "prompt": "Say the answer to set reminder"
+    },
+    "options": [
+      {
+        "sceneId": 28,
+        "utterances": [
+          "14"
+        ]
+      },
+      {
+        "sceneId": 29,
+        "utterances": [
+          "12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Siri",
+      "text": "Siri",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
+      "prompt": "Say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 46,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "correct answer",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says wrong answer. And siri tells you 14 is the largest among 12. 14. 7",
+      "prompt": "Say 14 to set reminder"
+    },
+    "options": [
+      {
+        "sceneId": 47,
+        "utterances": [
+          "14"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Siri",
+      "text": "Siri",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
+      "prompt": "Say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 48,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Correct answer",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says wrong answer. And siri tells you 14 is the largest among 12. 14. 7",
+      "prompt": "Say 14 to set reminder"
+    },
+    "options": [
+      {
+        "sceneId": 49,
+        "utterances": [
+          "14"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "yes",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "Say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 31,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 32,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 33,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 34,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Wrong",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "No. I actually have 7 toys. You see 2 plus 2 plus 3 is 7. But I will carry you to david anyways.",
+      "prompt": "Say Thank you chester"
+    },
+    "options": [
+      {
+        "sceneId": 37,
+        "utterances": [
+          "thank you chester"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Correct",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester says correct! I'll carry to david's phone.",
+      "prompt": "Say thank you chester."
+    },
+    "options": [
+      {
+        "sceneId": 36,
+        "utterances": [
+          "thank you chester"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "study",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester carries you to the study . David's laptop is right there on the desk. You want to ask siri to add a reminder for you.",
+      "prompt": "Say hey siri"
+    },
+    "options": [
+      {
+        "sceneId": 39,
+        "utterances": [
+          "hey siri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "study",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester carries you to the study . David's laptop is right there on the desk. You want to ask siri to add a reminder for you.",
+      "prompt": "Say hey siri"
+    },
+    "options": [
+      {
+        "sceneId": 38,
+        "utterances": [
+          "hey siri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "yes",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says. What can I help you with?",
+      "prompt": "Say set a reminder for tomorrow"
+    },
+    "options": [
+      {
+        "sceneId": 40,
+        "utterances": [
+          "set a reminder"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "yes",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says. What can I help you with?",
+      "prompt": "Say set a reminder for tomorrow"
+    },
+    "options": [
+      {
+        "sceneId": 41,
+        "utterances": [
+          "set a reminder"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "what event",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says. Okay. Just tell me what do you want me to remind you.",
+      "prompt": "Say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 42,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "What event",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says. Okay. Just tell me what do you want me to remind you.",
+      "prompt": "Say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 43,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "Say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 45,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "Say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 44,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 45,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 46,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 32,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Siri",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
+      "prompt": "Say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 52,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 33,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Siri",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
+      "prompt": "say teddy bear party"
+    },
+    "options": [
+      {
+        "sceneId": 50,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 51,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy beat.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 52,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 53,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow.",
       "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 54,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "ask",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester forgives you. You give her the treats and ask. Can you take me to david's phone? I need to set a reminder for tomorrow's teddy bear party. Chester says okay. But you have to tell me do you like cat or dog more.",
+      "prompt": "say dog or cat to chester"
+    },
+    "options": [
+      {
+        "sceneId": 55,
+        "utterances": [
+          "dog"
+        ]
+      },
+      {
+        "sceneId": 56,
+        "utterances": [
+          "cat"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "hurtful",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester says. That's hurtful but I'll help you anyways. So you climb on to chester's back. And she carries you to david's phone. You want to add a reminder using siri.",
+      "prompt": "Say hey siri"
+    },
+    "options": [
+      {
+        "sceneId": 57,
+        "utterances": [
+          "hey siri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Happy",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Chester is very happy. And says. I know you are my best friend. You climb on to her back and she carries you to david's phone. You want to add a reminder using siri.",
+      "prompt": "Say hey siri"
+    },
+    "options": [
+      {
+        "sceneId": 58,
+        "utterances": [
+          "hey siri"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You tells siri you want to set a reminder for tomorrow. Siri asks. What do you want me to remind you of?",
+      "prompt": "Say teddy bear party."
+    },
+    "options": [
+      {
+        "sceneId": 59,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "set",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You tells siri you want to set a reminder for tomorrow. Siri asks. What do you want me to remind you of?",
+      "prompt": "Say teddy bear party."
+    },
+    "options": [
+      {
+        "sceneId": 60,
+        "utterances": [
+          "teddy bear party"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "reminder",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 61,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "reminder",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
+      "prompt": "say chester take me to david"
+    },
+    "options": [
+      {
+        "sceneId": 62,
+        "utterances": [
+          "chester take me to david"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Return",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 62,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Return",
+      "text": "",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
     },
     "options": []
   }

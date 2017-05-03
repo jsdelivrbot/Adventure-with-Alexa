@@ -34,7 +34,7 @@
       "intent": "LifelineIntent"
     },
     {
-      "intent": "OpenDoorIntent"
+      "intent": "TeddyBearIntent"
     },
     {
       "intent": "MasterYodaIntent"
@@ -62,6 +62,66 @@
     },
     {
       "intent": "AreYouAlrightIntent"
+    },
+    {
+      "intent": "HugDavidIntent"
+    },
+    {
+      "intent": "GetOffTheBedIntent"
+    },
+    {
+      "intent": "RunToCabinetIntent"
+    },
+    {
+      "intent": "RattledBallIntent"
+    },
+    {
+      "intent": "TreatsIntent"
+    },
+    {
+      "intent": "RunIntent"
+    },
+    {
+      "intent": "PatIntent"
+    },
+    {
+      "intent": "ScareHerIntent"
+    },
+    {
+      "intent": "SixIntent"
+    },
+    {
+      "intent": "SevenIntent"
+    },
+    {
+      "intent": "ThankYouChesterIntent"
+    },
+    {
+      "intent": "SorryChesterIntent"
+    },
+    {
+      "intent": "FourteenIntent"
+    },
+    {
+      "intent": "TwelveIntent"
+    },
+    {
+      "intent": "TeddyBearPartyIntent"
+    },
+    {
+      "intent": "ChesterTakeMeToDavidIntent"
+    },
+    {
+      "intent": "HeySiriIntent"
+    },
+    {
+      "intent": "SetAReminderIntent"
+    },
+    {
+      "intent": "DogIntent"
+    },
+    {
+      "intent": "CatIntent"
     }
   ]
 }
