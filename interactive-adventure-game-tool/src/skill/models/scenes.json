@@ -6,7 +6,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Welcome",
-      "text": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "text": "Welcome to join my adventure. To learn how to use this skill, say \"Help\".",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -14,8 +14,8 @@
       }
     },
     "voice": {
-      "intro": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
-      "prompt": "If you want to try Star Wars story, say \"Star Wars\", or you can try Lifeline story, just say \"Lifeline\"."
+      "intro": "Welcome to join our adventure. To learn how to play, say \"Help\".",
+      "prompt": "if you want to play a teddy bear adventure game, say teddy bear. If you want to take a quiz about space, say space quiz. If you want to try a little personality test on star wars, say star wars."
     },
     "options": [
       {
@@ -27,7 +27,7 @@
       {
         "sceneId": 8,
         "utterances": [
-          "lifeline"
+          "space quiz"
         ]
       },
       {
@@ -119,8 +119,8 @@
       }
     },
     "voice": {
-      "intro": "You followed Master Anakin into the Senator Office. Here, he wants you to choose a lightsaber you like. Tips: there is a hidden option for this question.",
-      "prompt": ""
+      "intro": "You followed Master Anakin into the Senator Office. Here, he wants you to choose a lightsaber you like. Tips: there is a hidden option for this question. Thank, what is the opposite word for long?",
+      "prompt": "You can say long lightsaver, or you can say the hidden option."
     },
     "options": [
       {
@@ -153,8 +153,8 @@
       }
     },
     "voice": {
-      "intro": "You chose a heavy lightsaber. Your lightsaber is made of gold. You must have a heart of gold.",
-      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to restart the game."
+      "intro": "You chose a heavy lightsaber. Your lightsaber is made of gold. You must have a heart of gold. Never lose faith in yourself. Good luck!",
+      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to choose another the game."
     },
     "options": []
   },
@@ -174,8 +174,8 @@
       }
     },
     "voice": {
-      "intro": "You chose a light lightsaber. You feel it floating over your hand.",
-      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to restart the game."
+      "intro": "You chose a light lightsaber. You are a happy little child. Master Yoda says to you, \"I wish you all the success today and always!\"",
+      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to choose another the game."
     },
     "options": []
   },
@@ -195,8 +195,8 @@
       }
     },
     "voice": {
-      "intro": "You chose a long lightsaber. You can strike your enemies before they can reach you.",
-      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to restart the game."
+      "intro": "You chose a long lightsaber. You are a visionary child. Let good luck be on your side always!",
+      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to choose another the game."
     },
     "options": []
   },
@@ -216,8 +216,8 @@
       }
     },
     "voice": {
-      "intro": "Congratulations! You found the hidden option. You chose a short lightsaber. You are better at stealth attack than other Jedi Knights.",
-      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to restart the game."
+      "intro": "Congratulations! You found the hidden option. You chose a short lightsaber. You always care for others. May your troubles be less\nand your blessings be more.",
+      "prompt": "Say \"Exit\" to exit the game. Say \"reset\" to choose another the game."
     },
     "options": []
   },
@@ -228,7 +228,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Hello?",
+      "title": "Sun",
       "text": "",
       "prompt": "",
       "image": {
@@ -237,17 +237,14 @@
       }
     },
     "voice": {
-      "intro": "Hello? Is this thing working? Can anyone read me?",
-      "prompt": ""
+      "intro": "Hello, welcome to the space quiz! We have 7 questions prepared for you. Once you get the question right, you can proceed to the next one. If you get the question wrong, you can say again, to answer this question again. And you get the chance to continue answering questions. You can choose another game  by saying restart.",
+      "prompt": "Ready for the quiz? Say start. or if you want to choose another game, say 'restart'."
     },
     "options": [
       {
         "sceneId": 9,
         "utterances": [
-          "yes",
-          "who are you",
-          "who is this",
-          "hello"
+          "start"
         ]
       }
     ]
@@ -259,8 +256,8 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Thank god",
-      "text": "",
+      "title": "Room",
+      "text": "You enter a room.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -268,18 +265,20 @@
       }
     },
     "voice": {
-      "intro": "Oh, thank God! It's so good to have human contact! It's been hours! My name's Taylor. I am... was an astronaut on board the starship Varia.",
-      "prompt": ""
+      "intro": "Which is the largest planet in our solar system?",
+      "prompt": "Is it Jupiter or Mars?"
     },
     "options": [
       {
+        "sceneId": 10,
+        "utterances": [
+          "jupiter"
+        ]
+      },
+      {
         "sceneId": 11,
         "utterances": [
-          "what happened",
-          "was",
-          "the varia",
-          "varia",
-          "are you ok"
+          "mars"
         ]
       }
     ]
@@ -291,8 +290,8 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Complain",
-      "text": "",
+      "title": "Room",
+      "text": "You enter a room.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -300,10 +299,17 @@
       }
     },
     "voice": {
-      "intro": "Let's see. My ship just crashed in the middle of nowhere.\nNo one is hailing on this frequency, and I don't see any survivors other than me...\n...the least prepared person in existence for this sort of emergency!\nBut I got out of the whole mess with nothing more than a stubbed toe, so things are looking just peachy.\nThanks for asking.",
-      "prompt": ""
+      "intro": "Correct!",
+      "prompt": "Say next to next question."
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 77,
+        "utterances": [
+          "next"
+        ]
+      }
+    ]
   },
   {
     "id": 11,
@@ -312,8 +318,8 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Crash",
-      "text": "",
+      "title": "Room",
+      "text": "You enter a room.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -321,18 +327,10 @@
       }
     },
     "voice": {
-      "intro": "Our ship crashed on some moon.  I have no idea where. I managed to get to an escape pod, but I couldn't tell if anyone else made it into one.\nMy suit sensor tells me that the air here is breathable, at least, so that's nothing short of a miracle.But I've got no food or water rations on me.  The toolkit on the pod is about as basic as they come. I managed to get the pod's mobile transmitter working, but -- lucky you -- you seem to be the only one in range of the signal. Whoever and wherever you might be.",
-      "prompt": ""
+      "intro": "The answer is wrong. Jupiter is the largest planet in our solar system.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
     },
-    "options": [
-      {
-        "sceneId": 10,
-        "utterances": [
-          "are you alright",
-          "are you ok"
-        ]
-      }
-    ]
+    "options": []
   },
   {
     "id": 12,
@@ -342,7 +340,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Intro",
-      "text": "Tomorrow is the big Teddy Bear party, and you must definitely not let your owner forget about it... Would you like to help remind your owner David?",
+      "text": "Welcome to your adventure as a teddy bear. Tomorrow is the big Teddy Bear party, and you must definitely not let your owner forget about it... Would you like to help remind your owner David?",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -350,7 +348,7 @@
       }
     },
     "voice": {
-      "intro": "Tomorrow is the big Teddy Bear party, and you must definitely not let your owner forget about it... Would you like to help remind your owner David?",
+      "intro": "Welcome to your adventure as a teddy bear. Tomorrow is the big Teddy Bear party, and you must definitely not let your owner forget about it... Would you like to help your owner david.",
       "prompt": "Say yes if you wish to help or say reset to choose another game."
     },
     "options": [
@@ -379,12 +377,13 @@
     },
     "voice": {
       "intro": "David, your owner, lies next to you on the bed, in a deep sleep. He seems to be having a nightmare.",
-      "prompt": "Say hug david to help david fight monsters in his dream."
+      "prompt": "Say 'hug' to hug david and help fight monsters in his dream."
     },
     "options": [
       {
         "sceneId": 14,
         "utterances": [
+          "hug",
           "hug david"
         ]
       }
@@ -406,7 +405,7 @@
       }
     },
     "voice": {
-      "intro": "David remains sound asleep. You want to set an reminder on david's phone to remind him not to forget about your big party. First you have to get off the bed.",
+      "intro": "David remains sound asleep. You know that David is super forgetful, and he definitely forgets to send out invitations. You want to find his laptop, and send invitations out to everyone. First you have to get off the bed.",
       "prompt": "Say get off the bed"
     },
     "options": [
@@ -434,13 +433,14 @@
       }
     },
     "voice": {
-      "intro": "You tumble down, but being a soft bear, that's ok. It feels a little bit chilly in the room. You want to wear your thick jacket to keep warm.",
+      "intro": "You tumble down, but being a soft bear, that's ok. It feels a little bit chilly in the room. So you want to wear your thick jacket to keep warm.",
       "prompt": "Say run to cabinet to get your jacket."
     },
     "options": [
       {
         "sceneId": 16,
         "utterances": [
+          "run",
           "run to cabinet"
         ]
       }
@@ -462,8 +462,8 @@
       }
     },
     "voice": {
-      "intro": "Your warm winter jacket is here. This jacket is has a lot of pockets on it. It's good since you want to carry something useful for the road. It's a long way to David's phone, and you thought it's a good idea to ride David's cat Chester. But you don't know where she is. Her favorite treats and toys are here too. Which one would you carry with you?",
-      "prompt": "Say treats or rattled ball."
+      "intro": "Your warm winter jacket is here. The jacket has big\npockets to help you carry things. It's a long way to David's laptop, and you thought it's a good idea to ride David's cat Chester. Plus, chester knows where the laptop is, since she always sleeps on it. Her favorite treats and toys are here in the cabinet too. Maybe you can use these when you see her. Which one would you carry with you?",
+      "prompt": "Say cat treats or rattled ball."
     },
     "options": [
       {
@@ -475,6 +475,8 @@
       {
         "sceneId": 18,
         "utterances": [
+          "cat treats",
+          "treat",
           "treats"
         ]
       }
@@ -496,8 +498,8 @@
       }
     },
     "voice": {
-      "intro": "You take the rattled ball with you. Since your hand is really furry and the ball slips off your hand and rolls out of the bedroom.",
-      "prompt": "Say run to chase for the rattled ball."
+      "intro": "You take the rattled ball with you. Since your hand is really furry, so the ball slips off your hand, and rolls out of the bedroom. Now go chase it, bear!",
+      "prompt": "Say run to chase for the ball."
     },
     "options": [
       {
@@ -524,7 +526,7 @@
       }
     },
     "voice": {
-      "intro": "You take the her treats with you. You walks out of the bedroom to the living room. Chester is asleep on the couch. You climbed on the couch. Now you want to wake her up. Would you pat her or scare her to wake her up.",
+      "intro": "You take the her treats with you. You walks out of the bedroom to the living room. Chester is asleep on the couch. You climbed on the couch. Now you want to wake her up. Would you pat her, or scare her to wake her up.",
       "prompt": "You can say pat her or scare her."
     },
     "options": [
@@ -558,8 +560,8 @@
       }
     },
     "voice": {
-      "intro": "You run to the hallway. Chester is right here holding the ball in her hand. You asks nicely if she can take you to david's phone. Chester sys sure. But you have to help me figure out how many toys I have. I have 2 mouse, 2 boxes and 3 balls. Do I have 6 toys in total or 7.",
-      "prompt": "Tell me how many toys I have."
+      "intro": "You ran to the hallway. Chester is right here, holding the ball in her paw. You asks chester nicely, \"Can you take me to david's laptop?\". Chester says,  \"sure. But you have to help me figure out how many toys I have. I have 2 mouse, 2 boxes and 3 balls. In total, do I have 6 or 7 toys?",
+      "prompt": "Tell chester how many."
     },
     "options": [
       {
@@ -592,7 +594,7 @@
       }
     },
     "voice": {
-      "intro": "Chester wakes up gently. Luckily you can communicate with cat too. So you asks Chester to be your ride and gives her the treats. She agrees and you climbed onto her back.",
+      "intro": "There's a good bear. Chester wakes up gently. Luckily you can communicate with cat too. So You asks chester nicely, \"Can you take me to david's laptop? I will give you the treats\". She agrees and you climbed onto her back.",
       "prompt": "Say Thank you Chester."
     },
     "options": [
@@ -620,7 +622,7 @@
       }
     },
     "voice": {
-      "intro": "Chester bites you on the arm. Good thing you are a fluffy teddy bear and can't feel pain. You apologize to chester.",
+      "intro": "Chester bites you on the arm. Good thing you are a fluffy teddy bear and can't feel pain. You apologize to chester and gives her the treats.",
       "prompt": "Say sorry chester"
     },
     "options": [
@@ -648,8 +650,8 @@
       }
     },
     "voice": {
-      "intro": "Chester carries you to the study . David's phone is right there on the desk. You press on home button for siri. You ask siri to send a reminder. But siri says okay. But you have to tell me which is the biggest number among 12, 7, 14",
-      "prompt": "Say the answer to set reminder."
+      "intro": "Chester carries you on her back and takes you to the study . David's laptop is right there on the desk. You want to enter his email, but you don't know his password. Chester says, \"I know the password. But you have to tell me, which is the biggest number among 12, 7, 14?\"",
+      "prompt": "Say the right answer to chester"
     },
     "options": [
       {
@@ -679,7 +681,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "siri",
+      "title": "Email",
       "text": "siri",
       "prompt": "",
       "image": {
@@ -688,14 +690,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
-      "prompt": "Say teddy bear party"
+      "intro": "Chester says, \"you're right!\" She types in the password for you. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 30,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -716,8 +718,8 @@
       }
     },
     "voice": {
-      "intro": "Siri says wrong answer. Let's try again. What is the biggest number among 12, 14, 7",
-      "prompt": "Say the answer to set reminder"
+      "intro": "Chester says, \"wrong answer. Let's try again. What is the biggest number among 12, 14, 7\"",
+      "prompt": "Say the answer to chester"
     },
     "options": [
       {
@@ -750,8 +752,8 @@
       }
     },
     "voice": {
-      "intro": "Siri says wrong answer. Let's try again. What is the biggest number among 12, 14, 7",
-      "prompt": "Say the answer to set reminder"
+      "intro": "Chester says, \"wrong answer. Let's try again. What is the biggest number among 12, 14, 7\"",
+      "prompt": "Say the answer to chester"
     },
     "options": [
       {
@@ -775,8 +777,8 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Siri",
-      "text": "Siri",
+      "title": "Email",
+      "text": "",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -784,14 +786,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
-      "prompt": "Say teddy bear party"
+      "intro": "Chester says, \"you're right!\" She types in the password for you. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 46,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -812,8 +814,8 @@
       }
     },
     "voice": {
-      "intro": "Siri says wrong answer. And siri tells you 14 is the largest among 12. 14. 7",
-      "prompt": "Say 14 to set reminder"
+      "intro": "Chester says, \"wrong answer.\" And she tells you 14 is the largest among 12. 14. 7",
+      "prompt": "Say 14 to chester"
     },
     "options": [
       {
@@ -831,7 +833,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Siri",
+      "title": "Email",
       "text": "Siri",
       "prompt": "",
       "image": {
@@ -840,14 +842,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
-      "prompt": "Say teddy bear party"
+      "intro": "Chester says, \"you're right!\" She types in the password for you. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 48,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -868,8 +870,8 @@
       }
     },
     "voice": {
-      "intro": "Siri says wrong answer. And siri tells you 14 is the largest among 12. 14. 7",
-      "prompt": "Say 14 to set reminder"
+      "intro": "Chester says, \"wrong answer.\" And she tells you 14 is the largest among 12. 14. 7",
+      "prompt": "Say 14 to chester"
     },
     "options": [
       {
@@ -887,7 +889,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "yes",
+      "title": "email",
       "text": "",
       "prompt": "",
       "image": {
@@ -896,14 +898,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "Say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 31,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -915,7 +917,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "return",
+      "title": "Print",
       "text": "",
       "prompt": "",
       "image": {
@@ -924,10 +926,17 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
-      "prompt": "You can say reset to choose another story or say quit to end this game."
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 63,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
   },
   {
     "id": 32,
@@ -945,10 +954,17 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
-      "prompt": "You can say reset to choose another story or say quit to end this game."
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 65,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
   },
   {
     "id": 33,
@@ -966,10 +982,17 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
-      "prompt": "You can say reset to choose another story or say quit to end this game."
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 69,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
   },
   {
     "id": 34,
@@ -987,8 +1010,8 @@
       }
     },
     "voice": {
-      "intro": "No. I actually have 7 toys. You see 2 plus 2 plus 3 is 7. But I will carry you to david anyways.",
-      "prompt": "Say Thank you chester"
+      "intro": "But I actually have 7 toys. You see, 2 plus 2 plus 3, is 7. But I will carry you to david's laptop anyways.",
+      "prompt": "Now say Thank you chester"
     },
     "options": [
       {
@@ -1015,8 +1038,8 @@
       }
     },
     "voice": {
-      "intro": "Chester says correct! I'll carry to david's phone.",
-      "prompt": "Say thank you chester."
+      "intro": "Chester says, \"correct! Now, Let's go to David's laptop.\"",
+      "prompt": "Now say thank you chester."
     },
     "options": [
       {
@@ -1043,14 +1066,14 @@
       }
     },
     "voice": {
-      "intro": "Chester carries you to the study . David's laptop is right there on the desk. You want to ask siri to add a reminder for you.",
-      "prompt": "Say hey siri"
+      "intro": "Chester carries you on her back and takes you to the study . David's laptop is right there on the desk. You want to enter his email, and send everyone an invitation. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 39,
         "utterances": [
-          "hey siri"
+          "read me the invitation"
         ]
       }
     ]
@@ -1071,14 +1094,14 @@
       }
     },
     "voice": {
-      "intro": "Chester carries you to the study . David's laptop is right there on the desk. You want to ask siri to add a reminder for you.",
-      "prompt": "Say hey siri"
+      "intro": "Chester carries you on her back and takes you to the study. David's laptop is right there on the desk. You want to enter his email, and send everyone an invitation. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 38,
         "utterances": [
-          "hey siri"
+          "read me the invitation"
         ]
       }
     ]
@@ -1090,7 +1113,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "yes",
+      "title": "Email",
       "text": "",
       "prompt": "",
       "image": {
@@ -1099,14 +1122,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says. What can I help you with?",
-      "prompt": "Say set a reminder for tomorrow"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 40,
         "utterances": [
-          "set a reminder"
+          "send"
         ]
       }
     ]
@@ -1118,7 +1141,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "yes",
+      "title": "Email",
       "text": "",
       "prompt": "",
       "image": {
@@ -1127,14 +1150,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says. What can I help you with?",
-      "prompt": "Say set a reminder for tomorrow"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 41,
         "utterances": [
-          "set a reminder"
+          "send"
         ]
       }
     ]
@@ -1146,7 +1169,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "what event",
+      "title": "Print",
       "text": "",
       "prompt": "",
       "image": {
@@ -1155,14 +1178,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says. Okay. Just tell me what do you want me to remind you.",
-      "prompt": "Say teddy bear party"
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
     "options": [
       {
         "sceneId": 42,
         "utterances": [
-          "teddy bear party"
+          "print the flyer"
         ]
       }
     ]
@@ -1174,8 +1197,8 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "What event",
-      "text": "You enter a room.",
+      "title": "print",
+      "text": "",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -1183,14 +1206,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says. Okay. Just tell me what do you want me to remind you.",
-      "prompt": "Say teddy bear party"
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
     "options": [
       {
         "sceneId": 43,
         "utterances": [
-          "teddy bear party"
+          "print the flyer"
         ]
       }
     ]
@@ -1211,14 +1234,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "Say chester take me to david"
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
     },
     "options": [
       {
         "sceneId": 45,
         "utterances": [
-          "chester take me to david"
+          "okay"
         ]
       }
     ]
@@ -1239,14 +1262,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "Say chester take me to david"
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
     },
     "options": [
       {
         "sceneId": 44,
         "utterances": [
-          "chester take me to david"
+          "okay"
         ]
       }
     ]
@@ -1267,7 +1290,7 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
       "prompt": "You can say reset to choose another story or say quit to end this game."
     },
     "options": []
@@ -1288,7 +1311,7 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
       "prompt": "You can say reset to choose another story or say quit to end this game."
     },
     "options": []
@@ -1309,14 +1332,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 32,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -1328,7 +1351,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Siri",
+      "title": "Email",
       "text": "",
       "prompt": "",
       "image": {
@@ -1337,14 +1360,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
-      "prompt": "Say teddy bear party"
+      "intro": "Chester says, \"you're right!\" She types in the password for you. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 52,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -1365,14 +1388,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 33,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -1384,7 +1407,7 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Siri",
+      "title": "Email",
       "text": "",
       "prompt": "",
       "image": {
@@ -1393,14 +1416,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says you're right! Just tell me what would you like me to remind you.",
-      "prompt": "say teddy bear party"
+      "intro": "Chester says, \"you're right!\" She types in the password for you. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 50,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -1421,14 +1444,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 51,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -1449,10 +1472,17 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy beat.",
-      "prompt": "You can say reset to choose another story or say quit to end this game."
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 71,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
   },
   {
     "id": 52,
@@ -1470,14 +1500,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 53,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -1498,10 +1528,17 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow.",
-      "prompt": ""
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 67,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
   },
   {
     "id": 54,
@@ -1519,8 +1556,8 @@
       }
     },
     "voice": {
-      "intro": "Chester forgives you. You give her the treats and ask. Can you take me to david's phone? I need to set a reminder for tomorrow's teddy bear party. Chester says okay. But you have to tell me do you like cat or dog more.",
-      "prompt": "say dog or cat to chester"
+      "intro": "Chester forgives you and eats the treats. You asks chester nicely, \"Can you take me to david's laptop?\" Chester says,  \"okay. But you have to tell me, do you like cat or dog more?\"",
+      "prompt": "Say dog or cat to chester"
     },
     "options": [
       {
@@ -1553,14 +1590,14 @@
       }
     },
     "voice": {
-      "intro": "Chester says. That's hurtful but I'll help you anyways. So you climb on to chester's back. And she carries you to david's phone. You want to add a reminder using siri.",
-      "prompt": "Say hey siri"
+      "intro": "Chester says, \"That's hurtful, but I'll help you anyways.\" So you climb on to chester's back. And she carries you to david's laptop.",
+      "prompt": "Say thank you chester"
     },
     "options": [
       {
         "sceneId": 57,
         "utterances": [
-          "hey siri"
+          "thank you chester"
         ]
       }
     ]
@@ -1581,14 +1618,14 @@
       }
     },
     "voice": {
-      "intro": "Chester is very happy. And says. I know you are my best friend. You climb on to her back and she carries you to david's phone. You want to add a reminder using siri.",
-      "prompt": "Say hey siri"
+      "intro": "Chester is very happy. And says, \"I know you are my best friend.\" You climb on to her back and she carries you to david's laptop.",
+      "prompt": "Say thank you chester"
     },
     "options": [
       {
         "sceneId": 58,
         "utterances": [
-          "hey siri"
+          "thank you chester"
         ]
       }
     ]
@@ -1609,14 +1646,14 @@
       }
     },
     "voice": {
-      "intro": "You tells siri you want to set a reminder for tomorrow. Siri asks. What do you want me to remind you of?",
-      "prompt": "Say teddy bear party."
+      "intro": "Chester carries you on her back and takes you to the study . David's laptop is right there on the desk. You want to enter his email, and send everyone an invitation. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 59,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -1637,14 +1674,14 @@
       }
     },
     "voice": {
-      "intro": "You tells siri you want to set a reminder for tomorrow. Siri asks. What do you want me to remind you of?",
-      "prompt": "Say teddy bear party."
+      "intro": "Chester carries you on her back and takes you to the study . David's laptop is right there on the desk. You want to enter his email, and send everyone an invitation. David is such a forgetful boy, you thought. He has the invitations written, but never sent it! Do you want to know what he wrote on the invitation?",
+      "prompt": "Say read me the invitation to find out."
     },
     "options": [
       {
         "sceneId": 60,
         "utterances": [
-          "teddy bear party"
+          "read me the invitation"
         ]
       }
     ]
@@ -1665,14 +1702,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 61,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -1693,14 +1730,14 @@
       }
     },
     "voice": {
-      "intro": "Siri says okay. I'll remind you that tomorrow morning. You feel really happy and put the phone in your pocket. You must not let david know that you are alive at night. So you ask chester to take you back to bed before david finds out.",
-      "prompt": "say chester take me to david"
+      "intro": "Teddy bear party today! Everyone who is young, or just young at heart, will have a fine day out at the Teddy Bear Picnic. Bring along your teddy bear and partake in all the fun! Frolic in the woods, join the scavenger hunt, and you never know, a special guest may just turn up! Now only thing you need to do is to send this email out!",
+      "prompt": "Say Send to send this email to everyone you know!"
     },
     "options": [
       {
         "sceneId": 62,
         "utterances": [
-          "chester take me to david"
+          "send"
         ]
       }
     ]
@@ -1721,10 +1758,17 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
-      "prompt": "You can say reset to choose another story or say quit to end this game."
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
     },
-    "options": []
+    "options": [
+      {
+        "sceneId": 73,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
   },
   {
     "id": 62,
@@ -1742,8 +1786,849 @@
       }
     },
     "voice": {
-      "intro": "You return to bed safe and sound. You put david's phone on his nightstand. Hug him again. and wish for a great party tomorrow. This is the end of your adventure as a teddy bear.",
+      "intro": "Sent! Now this email is in everyone's mailbox, and everyone will see it tomorrow morning. \"But would david forget about this?\" You're getting a little worried. \"I can print it, and put it on david's nightstand.\" Now you need to tell his laptop to print.",
+      "prompt": "Say print the flyer"
+    },
+    "options": [
+      {
+        "sceneId": 74,
+        "utterances": [
+          "print the flyer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 64,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
       "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 65,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 66,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 67,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 68,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 69,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 70,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 71,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 72,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 73,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 75,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Now you have the flyer freshly out of the printer. You fold the flyer carefully and put it in your pocket. Chester offers to take you back to David, just because she is a really good cat. \"let's go back to David!\" Chester says.",
+      "prompt": "Say okay to chester"
+    },
+    "options": [
+      {
+        "sceneId": 76,
+        "utterances": [
+          "okay"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 76,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You return to bed safe and sound. You put the flyer out on his nightstand, so David can see it the first thing tomorrow. Thank Chester again. You go back to sleep and wish for a great party tomorrow. This is the end of you adventure as ateddy bear.",
+      "prompt": "You can say reset to choose another story or say quit to end this game."
+    },
+    "options": []
+  },
+  {
+    "id": 77,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Who was the first human being landing on Moon?",
+      "prompt": "Is it Armstrong or Aldrin?"
+    },
+    "options": [
+      {
+        "sceneId": 78,
+        "utterances": [
+          "armstrong"
+        ]
+      },
+      {
+        "sceneId": 79,
+        "utterances": [
+          "aldrin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Correct!",
+      "prompt": "Say next to next question."
+    },
+    "options": [
+      {
+        "sceneId": 80,
+        "utterances": [
+          "next"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Actually, Edwin Aldrin was the second human who put step on the Moon.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
+    },
+    "options": []
+  },
+  {
+    "id": 80,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "How many planets are there in our Solar System?",
+      "prompt": "Is it 8 or 9."
+    },
+    "options": [
+      {
+        "sceneId": 81,
+        "utterances": [
+          "8"
+        ]
+      },
+      {
+        "sceneId": 82,
+        "utterances": [
+          "9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Congratulations! Your answer is correct!",
+      "prompt": "Say next to next question."
+    },
+    "options": [
+      {
+        "sceneId": 83,
+        "utterances": [
+          "next"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "The right answer is 8. Actually there was 9 planets in our Solar System before 2006. But Pluto was reclassified as a dwarf planet after 2006.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
+    },
+    "options": []
+  },
+  {
+    "id": 83,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Which planet is approximately the same landmass as the Earth.",
+      "prompt": "Is it Jupiter or Mars?"
+    },
+    "options": [
+      {
+        "sceneId": 84,
+        "utterances": [
+          "mars"
+        ]
+      },
+      {
+        "sceneId": 85,
+        "utterances": [
+          "jupiter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Congratulations! this is the right answer!",
+      "prompt": "Say 'Next' to the next question."
+    },
+    "options": [
+      {
+        "sceneId": 86,
+        "utterances": [
+          "next"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "The right answer is Mars. Actually, Jupiter is much much much much bigger than the Earth.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
+    },
+    "options": []
+  },
+  {
+    "id": 86,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Who was the first person to reach space?",
+      "prompt": "Is it \"Yuri Gagarin\" , or \"Neil Armstrong\"?"
+    },
+    "options": [
+      {
+        "sceneId": 87,
+        "utterances": [
+          "yuri  gagarin"
+        ]
+      },
+      {
+        "sceneId": 88,
+        "utterances": [
+          "neil armstrong"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Congratulations! This is the right answer!",
+      "prompt": "Say next to move to the next question."
+    },
+    "options": [
+      {
+        "sceneId": 89,
+        "utterances": [
+          "next"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Sorry, this is the wrong answer. Neil Armstrong was the first man who landed on the Moon.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
+    },
+    "options": []
+  },
+  {
+    "id": 89,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Have human beings ever set foot on Mars?",
+      "prompt": "Yes or no?"
+    },
+    "options": [
+      {
+        "sceneId": 90,
+        "utterances": [
+          "no"
+        ]
+      },
+      {
+        "sceneId": 91,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Congratulation! This is the right answer.",
+      "prompt": "Say next to the next question."
+    },
+    "options": [
+      {
+        "sceneId": 92,
+        "utterances": [
+          "next"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Sorry. Even though I really wish we had set foot on Mars, we haven't yet.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
+    },
+    "options": []
+  },
+  {
+    "id": 92,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "This is the last question. What is a supernova?",
+      "prompt": "Is it a superstar or an explosion?"
+    },
+    "options": [
+      {
+        "sceneId": 93,
+        "utterances": [
+          "superstar"
+        ]
+      },
+      {
+        "sceneId": 94,
+        "utterances": [
+          "explosion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Sorry, this is the wrong answer.",
+      "prompt": "You can say again for another chance, or say exit to quit the game."
+    },
+    "options": []
+  },
+  {
+    "id": 94,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Congratulations! You are correct. A supernova is n explosion that marks the death of a huge star.",
+      "prompt": "You have reached the end of this challenge. You are so clever. Say 'stop' to stop the game. Say 'restart' to choose another game."
     },
     "options": []
   }

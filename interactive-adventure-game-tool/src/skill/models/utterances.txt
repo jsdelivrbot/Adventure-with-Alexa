@@ -6,17 +6,21 @@ UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyN
 ResetStateIntent reset skill
 ResetStateIntent start again
 ResetStateIntent reset
+ResetStateIntent restart
 RestoreStateIntent resume skill
 RestoreStateIntent resume
 RepeatOptionsIntent repeat options
 RepeatSceneIntent repeat scene
 RepeatSceneIntent repeat
 GoBackIntent go back
+GoBackIntent again
 AMAZON.HelpIntent help
 AMAZON.StopIntent exit skill
+AMAZON.StopIntent exit
 AMAZON.CancelIntent exit skill
+AMAZON.CancelIntent exit
 StarWarsIntent star wars
-LifelineIntent lifeline
+SpaceQuizIntent space quiz
 TeddyBearIntent teddy bear
 MasterYodaIntent master yoda
 MasterAnakinIntent master anakin
@@ -24,23 +28,20 @@ HeavyLightsaberIntent heavy lightsaber
 LightLightsaberIntent light lightsaber
 LongLightsaberIntent long lightsaber
 ShortLightsaberIntent short lightsaber
+StartIntent start
+JupiterIntent jupiter
+MarsIntent mars
+NextIntent next
 YesIntent yes
-YesIntent who are you
-YesIntent who is this
-YesIntent hello
-WhatHappenedIntent what happened
-WhatHappenedIntent was
-WhatHappenedIntent the varia
-WhatHappenedIntent varia
-WhatHappenedIntent are you ok
-AreYouAlrightIntent are you alright
-AreYouAlrightIntent are you ok
-YesIntent yes
-HugDavidIntent hug david
+HugIntent hug
+HugIntent hug david
 GetOffTheBedIntent get off the bed
-RunToCabinetIntent run to cabinet
+RunIntent run
+RunIntent run to cabinet
 RattledBallIntent rattled ball
-TreatsIntent treats
+CatTreatsIntent cat treats
+CatTreatsIntent treat
+CatTreatsIntent treats
 RunIntent run
 PatIntent pat
 ScareHerIntent scare her
@@ -51,37 +52,68 @@ SorryChesterIntent sorry chester
 FourteenIntent fourteen
 TwelveIntent twelve
 SevenIntent seven
-TeddyBearPartyIntent teddy bear party
+ReadMeTheInvitationIntent read me the invitation
 FourteenIntent fourteen
 SevenIntent seven
 FourteenIntent fourteen
 TwelveIntent twelve
-TeddyBearPartyIntent teddy bear party
+ReadMeTheInvitationIntent read me the invitation
 FourteenIntent fourteen
-TeddyBearPartyIntent teddy bear party
+ReadMeTheInvitationIntent read me the invitation
 FourteenIntent fourteen
-ChesterTakeMeToDavidIntent chester take me to david
+SendIntent send
+PrintTheFlyerIntent print the flyer
+PrintTheFlyerIntent print the flyer
+PrintTheFlyerIntent print the flyer
 ThankYouChesterIntent thank you chester
 ThankYouChesterIntent thank you chester
-HeySiriIntent hey siri
-HeySiriIntent hey siri
-SetAReminderIntent set a reminder
-SetAReminderIntent set a reminder
-TeddyBearPartyIntent teddy bear party
-TeddyBearPartyIntent teddy bear party
-ChesterTakeMeToDavidIntent chester take me to david
-ChesterTakeMeToDavidIntent chester take me to david
-ChesterTakeMeToDavidIntent chester take me to david
-TeddyBearPartyIntent teddy bear party
-ChesterTakeMeToDavidIntent chester take me to david
-TeddyBearPartyIntent teddy bear party
-ChesterTakeMeToDavidIntent chester take me to david
-ChesterTakeMeToDavidIntent chester take me to david
+ReadMeTheInvitationIntent read me the invitation
+ReadMeTheInvitationIntent read me the invitation
+SendIntent send
+SendIntent send
+PrintTheFlyerIntent print the flyer
+PrintTheFlyerIntent print the flyer
+OkayIntent okay
+OkayIntent okay
+SendIntent send
+ReadMeTheInvitationIntent read me the invitation
+SendIntent send
+ReadMeTheInvitationIntent read me the invitation
+SendIntent send
+PrintTheFlyerIntent print the flyer
+SendIntent send
+PrintTheFlyerIntent print the flyer
 DogIntent dog
 CatIntent cat
-HeySiriIntent hey siri
-HeySiriIntent hey siri
-TeddyBearPartyIntent teddy bear party
-TeddyBearPartyIntent teddy bear party
-ChesterTakeMeToDavidIntent chester take me to david
-ChesterTakeMeToDavidIntent chester take me to david
+ThankYouChesterIntent thank you chester
+ThankYouChesterIntent thank you chester
+ReadMeTheInvitationIntent read me the invitation
+ReadMeTheInvitationIntent read me the invitation
+SendIntent send
+SendIntent send
+PrintTheFlyerIntent print the flyer
+PrintTheFlyerIntent print the flyer
+OkayIntent okay
+OkayIntent okay
+OkayIntent okay
+OkayIntent okay
+OkayIntent okay
+OkayIntent okay
+OkayIntent okay
+ArmstrongIntent armstrong
+AldrinIntent aldrin
+NextIntent next
+EightIntent eight
+NineIntent nine
+NextIntent next
+MarsIntent mars
+JupiterIntent jupiter
+NextIntent next
+YuriGagarinIntent yuri  gagarin
+NeilArmstrongIntent neil armstrong
+NextIntent next
+NoIntent no
+YesIntent yes
+NextIntent next
+SuperstarIntent superstar
+ExplosionIntent explosion

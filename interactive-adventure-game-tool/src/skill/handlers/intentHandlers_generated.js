@@ -28,8 +28,8 @@ module.exports = {
 	"StarWarsIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "star wars" )
 	},
-	"LifelineIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "lifeline" )
+	"SpaceQuizIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "space quiz" )
 	},
 	"TeddyBearIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "teddy bear" )
@@ -52,32 +52,35 @@ module.exports = {
 	"ShortLightsaberIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "short lightsaber" )
 	},
+	"StartIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "start" )
+	},
+	"JupiterIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "jupiter" )
+	},
+	"MarsIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "mars" )
+	},
+	"NextIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "next" )
+	},
 	"YesIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "yes" )
 	},
-	"WhatHappenedIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "what happened" )
-	},
-	"AreYouAlrightIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "are you alright" )
-	},
-	"HugDavidIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "hug david" )
+	"HugIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "hug" )
 	},
 	"GetOffTheBedIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "get off the bed" )
 	},
-	"RunToCabinetIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "run to cabinet" )
+	"RunIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "run" )
 	},
 	"RattledBallIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "rattled ball" )
 	},
-	"TreatsIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "treats" )
-	},
-	"RunIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "run" )
+	"CatTreatsIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "cat treats" )
 	},
 	"PatIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "pat" )
@@ -103,22 +106,49 @@ module.exports = {
 	"TwelveIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "12" )
 	},
-	"TeddyBearPartyIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "teddy bear party" )
+	"ReadMeTheInvitationIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "read me the invitation" )
 	},
-	"ChesterTakeMeToDavidIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "chester take me to david" )
+	"SendIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "send" )
 	},
-	"HeySiriIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "hey siri" )
+	"PrintTheFlyerIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "print the flyer" )
 	},
-	"SetAReminderIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "set a reminder" )
+	"OkayIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "okay" )
 	},
 	"DogIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "dog" )
 	},
 	"CatIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "cat" )
+	},
+	"ArmstrongIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "armstrong" )
+	},
+	"AldrinIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "aldrin" )
+	},
+	"EightIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "8" )
+	},
+	"NineIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "9" )
+	},
+	"YuriGagarinIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "yuri  gagarin" )
+	},
+	"NeilArmstrongIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "neil armstrong" )
+	},
+	"NoIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "no" )
+	},
+	"SuperstarIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "superstar" )
+	},
+	"ExplosionIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "explosion" )
 	},
 }

@@ -31,7 +31,7 @@
       "intent": "StarWarsIntent"
     },
     {
-      "intent": "LifelineIntent"
+      "intent": "SpaceQuizIntent"
     },
     {
       "intent": "TeddyBearIntent"
@@ -55,31 +55,34 @@
       "intent": "ShortLightsaberIntent"
     },
     {
+      "intent": "StartIntent"
+    },
+    {
+      "intent": "JupiterIntent"
+    },
+    {
+      "intent": "MarsIntent"
+    },
+    {
+      "intent": "NextIntent"
+    },
+    {
       "intent": "YesIntent"
     },
     {
-      "intent": "WhatHappenedIntent"
-    },
-    {
-      "intent": "AreYouAlrightIntent"
-    },
-    {
-      "intent": "HugDavidIntent"
+      "intent": "HugIntent"
     },
     {
       "intent": "GetOffTheBedIntent"
     },
     {
-      "intent": "RunToCabinetIntent"
+      "intent": "RunIntent"
     },
     {
       "intent": "RattledBallIntent"
     },
     {
-      "intent": "TreatsIntent"
-    },
-    {
-      "intent": "RunIntent"
+      "intent": "CatTreatsIntent"
     },
     {
       "intent": "PatIntent"
@@ -106,22 +109,49 @@
       "intent": "TwelveIntent"
     },
     {
-      "intent": "TeddyBearPartyIntent"
+      "intent": "ReadMeTheInvitationIntent"
     },
     {
-      "intent": "ChesterTakeMeToDavidIntent"
+      "intent": "SendIntent"
     },
     {
-      "intent": "HeySiriIntent"
+      "intent": "PrintTheFlyerIntent"
     },
     {
-      "intent": "SetAReminderIntent"
+      "intent": "OkayIntent"
     },
     {
       "intent": "DogIntent"
     },
     {
       "intent": "CatIntent"
+    },
+    {
+      "intent": "ArmstrongIntent"
+    },
+    {
+      "intent": "AldrinIntent"
+    },
+    {
+      "intent": "EightIntent"
+    },
+    {
+      "intent": "NineIntent"
+    },
+    {
+      "intent": "YuriGagarinIntent"
+    },
+    {
+      "intent": "NeilArmstrongIntent"
+    },
+    {
+      "intent": "NoIntent"
+    },
+    {
+      "intent": "SuperstarIntent"
+    },
+    {
+      "intent": "ExplosionIntent"
     }
   ]
 }
